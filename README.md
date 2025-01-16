@@ -27,19 +27,17 @@ I'm a moderate software developer with an addiction in game development and desi
 ## Projects
 
 ### [Ciphers-Please](https://github.com/Fxll3n/Ciphers-Please)
-A project developed in GDScript.
+GameOff Game jam entry. 
 
 ### [Crappy-N-Scrappy](https://github.com/Fxll3n/Crappy-N-Scrappy)
 Crappy code with Scrappy ideas. Simply put, delightful mischief ;) Developed in Java.
-
-### [Dash-Man](https://github.com/Fxll3n/Dash-Man)
-A game development project using GDScript.
+Using fabric mod loader.
 
 ### [Defendo](https://github.com/Fxll3n/Defendo)
-A tower defense game developed in GDScript.
+A tower defense game developed in GDScript. Best going project atm.
 
 ### [elise-player-character](https://github.com/Fxll3n/elise-player-character)
-A project developed in GDScript.
+A simple platformer character controller for an upcoming project :D
 
 ## GitHub Stats
 
