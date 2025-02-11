@@ -39,7 +39,7 @@ A tower defense game developed in GDScript. Best going project atm.
 ### [elise-player-character](https://github.com/Fxll3n/elise-player-character)
 A simple platformer character controller for an upcoming project :D
 
-### [Ciphers-Please](https://github.com/Fxll3n/Ciphers-Please)
+### [Mechamaru](https://github.com/Fxll3n/Mechamaru)
 Classic snake game mixed with Tower Defense and Arcady features.
 
 ## GitHub Stats
