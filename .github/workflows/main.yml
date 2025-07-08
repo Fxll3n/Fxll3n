@@ -20,11 +20,10 @@ jobs:
           writeTo: "README.md"
 
       - uses: stefanzweifel/git-auto-commit-action@v4
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
         with:
           commit_message: Update generated README
           branch: main
           commit_user_name: readme-scribe 🤖
           commit_user_email: actions@github.com
           commit_author: readme-scribe 🤖 <actions@github.com>
+          token: ${{ secrets.GH_PAT }}
