@@ -20,9 +20,9 @@ jobs:
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         #twitter-token: ${{ secrets.TWITTER_TOKEN }}
-        spotify-client-id: ${{ secrets.SPOTIFY_CLIENT_ID }}
-        spotify-client-secret: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
-        spotify-refresh-token: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+        #spotify-client-id: ${{ secrets.SPOTIFY_CLIENT_ID }}
+        #spotify-client-secret: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+        #spotify-refresh-token: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
         #youtube-api-key: ${{ secrets.YOUTUBE_API_KEY }}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
