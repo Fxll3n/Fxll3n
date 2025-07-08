@@ -1,0 +1,36 @@
+name: Update README with Markscribe
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    # Run every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  markscribe:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Generate README
+      uses: muesli/markscribe@master
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        #twitter-token: ${{ secrets.TWITTER_TOKEN }}
+        spotify-client-id: ${{ secrets.SPOTIFY_CLIENT_ID }}
+        spotify-client-secret: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+        spotify-refresh-token: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+        #youtube-api-key: ${{ secrets.YOUTUBE_API_KEY }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add README.md
+        git diff --staged --quiet || git commit -m "Update README with latest content"
+        git push
