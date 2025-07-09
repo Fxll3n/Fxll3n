@@ -1,36 +1,32 @@
-name: Update README with Markscribe
-
+name: markscribe
 on:
   push:
-    branches: [ main ]
-  schedule:
-    # Run every 6 hours
-    - cron: '0 */6 * * *'
   workflow_dispatch:
+  schedule:
+    - cron: '0 * * * *'    # every hour, adjust as you like
 
 jobs:
   markscribe:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
-    
+
     steps:
-    - uses: actions/checkout@v3
-    
-    - name: Generate README
-      uses: muesli/markscribe@master
-      with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        #twitter-token: ${{ secrets.TWITTER_TOKEN }}
-        #spotify-client-id: ${{ secrets.SPOTIFY_CLIENT_ID }}
-        #spotify-client-secret: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
-        #spotify-refresh-token: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
-        #youtube-api-key: ${{ secrets.YOUTUBE_API_KEY }}
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    
-    - name: Commit and push changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add README.md
-        git diff --staged --quiet || git commit -m "Update README with latest content"
-        git push
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Generate README
+        uses: muesli/readme-scribe@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        with:
+          template: 'README.gtpl'
+          writeTo: 'README.md'
+
+      - name: Commit updated README
+        uses: stefanzweifel/git-auto-commit-action@v4
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        with:
+          commit_message: 'markscribe: update README.md'
+
