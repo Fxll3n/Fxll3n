@@ -1,5 +1,8 @@
 # Hi there 👋
 
+{{ $w := wakatime "https://waka.hackclub.com" (env "WAKA_KEY") }}
+
+{{ wakatimeDoubleCategoryBar "💾 Languages:" $w.Languages "💼 Projects:" $w.Projects 5 }}
 
 ### 🔨 Currently Working On
 {{ range recentContributions 5 }}
