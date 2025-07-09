@@ -11,6 +11,10 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
 
+    env:
+      WAKA_KEY: ${{ secrets.WAKA_KEY }}
+
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
