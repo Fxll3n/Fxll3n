@@ -1,23 +1,18 @@
-# Hi there! 👋
+# Hi there 👋
 
-I'm Angel, a Game developer passionate about System Designs.
 
-## 📝 Latest Blog Posts
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+### 🔨 Currently Working On
 
-## 🎬 Latest YouTube Videos
-<!-- YOUTUBE:START -->
-<!-- YOUTUBE:END -->
+- [Fxll3n/uSave](https://github.com/Fxll3n/uSave) – Barebones Godot 4.x Save System
+- [Fxll3n/uState](https://github.com/Fxll3n/uState) – Barebones Godot 4.x FSM
+- [Fxll3n/TankerZ](https://github.com/Fxll3n/TankerZ) – Simple Multiplayer Tank Game
+- [Fxll3n/Dicer](https://github.com/Fxll3n/Dicer) – A Balatro Inspiried Dice Game
+- [Fxll3n/PythonProjects](https://github.com/Fxll3n/PythonProjects) – Many Python Projects for people to learn from.
 
-## 📊 GitHub Stats
-<!-- GITHUB-STATS:START -->
-<!-- GITHUB-STATS:END -->
+### 🌟 Recent Stars
 
-## 🎵 Recently Played Spotify
-<!-- SPOTIFY:START -->
-<!-- SPOTIFY:END -->
+- [Fxll3n/Ciphers-Please](https://github.com/Fxll3n/Ciphers-Please) – 
+- [Fxll3n/YuGiOh-VL](https://github.com/Fxll3n/YuGiOh-VL) – YuGiOh Virtual Link is a VR take on the classic card game using native XR implementation in the Godot 4.3 Game Engine
+- [Fxll3n/HerseyHackBot](https://github.com/Fxll3n/HerseyHackBot) – This is the code used to make the HackBot in the jhhs Hack Club discord server. https://discord.gg/DWmUmURNZU. If you are using this for yourself, you need an open api key, and token of your discord bot.
+- [Fxll3n/VALARIA-Old-](https://github.com/Fxll3n/VALARIA-Old-) – An exciting new adventure awaits!
 
-## 🐦 Latest Tweets
-<!-- TWITTER:START -->
-<!-- TWITTER:END -->
