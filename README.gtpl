@@ -1,9 +1,5 @@
 # Hi there 👋
 
-### 📋 Recent Blog Posts
-{{ range rss "https://your-blog.com/rss.xml" 5 }}
-- [{{ .Title }}]({{ .URL }}) ({{ humanize .PublishedAt }})
-{{- end }}
 
 ### 🔨 Currently Working On
 {{ range recentContributions 5 }}
