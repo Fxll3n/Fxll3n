@@ -1,0 +1,172 @@
+{
+  "widgets": [
+    {
+      "name": "Surveillance-loadout Widget",
+      "size": {
+        "width": 800,
+        "height": 176
+      },
+      "config": {
+        "ledColor": "#ff55ff",
+        "workflow": [
+          "VS Code",
+          "Git",
+          "Docker",
+          "Godot"
+        ],
+        "languages": [
+          "GDScript",
+          "Swift",
+          "Lua",
+          "Python",
+          "JavaScript",
+          "HTML",
+          "C#",
+          "GDShader",
+          "Java"
+        ],
+        "showTitle": false,
+        "accentColor": "#c084fc",
+        "customTitle": "Daily Loadout",
+        "displayMode": "both",
+        "animationType": "fade-in",
+        "secondaryColor": "#bd93f9",
+        "animationPreviewKey": 1
+      },
+      "locked": false,
+      "zIndex": 4,
+      "visible": true,
+      "position": {
+        "x": 0,
+        "y": 468
+      },
+      "widgetId": "surveillance-loadout",
+      "instanceId": "widget_1791500488549"
+    },
+    {
+      "name": "Ascii-text Widget",
+      "size": {
+        "width": 584,
+        "height": 240
+      },
+      "config": {
+        "cols": 85,
+        "detail": "high",
+        "charset": "default",
+        "fontSize": 12,
+        "asciiFont": "block",
+        "showTitle": false,
+        "asciiLines": [
+          "████████  ██    ██  ██        ██        ███████▄  ██    ██",
+          "██         ▀████▀   ██        ██             ▀██  ███   ██",
+          "██████       ██     ██        ██         ▀█████▄  ██▀█  ██",
+          "██         ▄████▄   ██        ██              ██  ██ ▀█ ██",
+          "██        ██    ██  ████████  ████████  ███████▀  ██   ███"
+        ],
+        "customText": "FXLL3n",
+        "hideBorder": false,
+        "charSpacing": 2,
+        "animationType": "zoom-out",
+        "customCharset": "",
+        "backgroundColor": "#060606",
+        "lockAspectRatio": false,
+        "animationDuration": 1000,
+        "animationPreviewKey": 4
+      },
+      "locked": false,
+      "zIndex": 4,
+      "visible": true,
+      "position": {
+        "x": 108,
+        "y": 30
+      },
+      "widgetId": "ascii-text",
+      "instanceId": "widget_1791500821275"
+    },
+    {
+      "name": "Repositories Widget",
+      "size": {
+        "width": 800,
+        "height": 248
+      },
+      "config": {
+        "maxRepos": 4,
+        "repoViewMode": "grid",
+        "animationType": "fade-in",
+        "selectedRepos": [
+          "SteamManagerPacket",
+          "FightEngine",
+          "FFE2",
+          "uState"
+        ],
+        "repoCardHeight": 52,
+        "backgroundColor": "#060606",
+        "showRepoUpdated": false,
+        "animationPreviewKey": 9
+      },
+      "locked": false,
+      "zIndex": 5,
+      "visible": true,
+      "position": {
+        "x": 0,
+        "y": 656
+      },
+      "widgetId": "repositories",
+      "instanceId": "widget_1791501109405"
+    },
+    {
+      "name": "Divider Widget",
+      "size": {
+        "width": 800,
+        "height": 30
+      },
+      "config": {
+        "showTitle": false,
+        "hideBorder": true,
+        "animationType": "fade-in",
+        "animationPreviewKey": 2
+      },
+      "locked": false,
+      "zIndex": 6,
+      "visible": true,
+      "position": {
+        "x": 0,
+        "y": 294
+      },
+      "widgetId": "divider",
+      "instanceId": "widget_1791501243076"
+    },
+    {
+      "name": "Stats Widget",
+      "size": {
+        "width": 800,
+        "height": 120
+      },
+      "config": {
+        "backgroundColor": "#060606"
+      },
+      "locked": false,
+      "zIndex": 6,
+      "visible": true,
+      "position": {
+        "x": 0,
+        "y": 336
+      },
+      "widgetId": "stats",
+      "instanceId": "widget_1791501334364"
+    }
+  ],
+  "globalStyles": {
+    "padding": 24,
+    "textColor": "#f0f0f0",
+    "themeMode": "dark",
+    "fontFamily": "JetBrains Mono",
+    "accentColor": "#bd93f9",
+    "borderColor": "#1f1f1f",
+    "borderRadius": 9,
+    "templateStyle": "native",
+    "backgroundColor": "transparent",
+    "transparentBackground": false
+  },
+  "templateId": "terminal"
+}
