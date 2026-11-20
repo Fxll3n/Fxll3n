@@ -1,4 +1,5 @@
 {
+  "username": "Fxll3n",
   "widgets": [
     {
       "name": "Surveillance-loadout Widget",
@@ -143,7 +144,8 @@
         "height": 120
       },
       "config": {
-        "backgroundColor": "#060606"
+        "backgroundColor": "#060606",
+        "statsLayout": "horizontal"
       },
       "locked": false,
       "zIndex": 6,
@@ -168,5 +170,10 @@
     "backgroundColor": "transparent",
     "transparentBackground": false
   },
-  "templateId": "terminal"
+  "templateId": "terminal",
+  "profileSlug": "default",
+  "metadata": {
+    "revision": "rev_1795133854260_4e7za",
+    "updatedAt": "2026-11-20T00:17:37.361Z"
+  }
 }
